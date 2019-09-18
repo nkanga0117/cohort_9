@@ -1,0 +1,15 @@
+body{
+    color 
+}
+.clock{
+    text-align: center;
+    padding-top: 30vh;
+}
+.clock p{
+    font-size: 20px;
+    color: silver;
+}
+.clock h4{
+    font-size: 40px;
+    font-weight: bold;
+}

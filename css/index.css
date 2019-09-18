@@ -1,0 +1,84 @@
+body{
+    overflow-x: hidden;
+    background:#fafafa;
+    font-family:sans-serif;
+    
+}
+
+.slanter{
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 620px;
+    top: -200px;
+    left: -50%;
+    z-index: -1;
+    background-color: rgb(33, 150, 243);
+    transform: rotate(-3deg);
+
+    
+}
+
+.profile{
+    display: flex;
+    color: white;
+    
+}
+
+.profile img{
+    width:280px;
+    margin-top: 60px;
+    
+    
+    
+}
+.profile div{
+    width: 50vw;
+
+}
+.profile h1{
+    font-size: 50px;
+}
+.profile h5{
+    font-weight: 100;
+    font-size: 25px
+}
+.myself{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 70px;
+    border-bottom: 1px solid;
+    padding-bottom: 23px;
+}
+.myself .title{
+    color: rgb(33, 150, 243);
+    font-size: 30px;
+    font-weight: 100;
+}
+.skills{
+    display: flex;
+    color: silver;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.skills div{
+    width: 50%
+}
+.myself img{
+    width: 250px
+}
+.skills span{
+    color: black
+}
+.skills p{
+    line-height: 1.5;
+}
+.interest{
+    text-align: center
+}
+.interest span{
+    color: silver
+}
+.interest img{
+    margin: 10px
+}
